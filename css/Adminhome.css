@@ -1,0 +1,167 @@
+.adminhome.formSection {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background: var(--src) center center/100% 100% no-repeat;
+  overflow: hidden;
+}
+.adminhome .flexRow {
+  position: absolute;
+  top: 338px;
+  left: 364px;
+  display: flex;
+  gap: 0px 11px;
+  width: 608px;
+  height: 44px;
+}
+.adminhome .contentBox {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 3px 0px;
+  width: 553px;
+  min-width: 0px;
+  background-color: #f1f9ff;
+  box-shadow: 0px 1px 5px 2px rgba(0, 0, 0, 0.149);
+}
+.adminhome .highlightTitle {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin: 9.5px 0px 9.5px 16px;
+  width: 350px;
+  font: 400 16px/1.18 "Inter", Helvetica, Arial, serif;
+  color: rgba(0, 58, 146, 0.498);
+  border: none;
+  border-style: none;
+  background: transparent;
+}
+.adminhome .contentBox1 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 44px;
+  min-width: 0px;
+  background-color: #96d3ff;
+  border-radius: 8px 8px 8px 8px;
+  box-shadow: 0px 1px 5px 2px rgba(0, 0, 0, 0.149);
+}
+.adminhome .inputImage {
+  position: relative;
+  margin: 6px;
+  width: 32px;
+  height: 32px;
+}
+.adminhome .headerImage {
+  position: absolute;
+  top: 190px;
+  left: 566px;
+  width: 148px;
+  height: 98px;
+  filter: drop-shadow(0px 0px 25px rgba(241, 249, 255, 0.247));
+}
+.adminhome .footerImage {
+  position: relative;
+  margin: 640px 3.91% 50px auto;
+  width: 30px;
+  height: 30px;
+  
+}
+.adminhome .flexRow1 {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  display: flex;
+  gap: 0px 12px;
+  width: 245px;
+  height: 162px;
+}
+.adminhome .statusText {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 12.5px 0px 132.5px;
+  min-width: 0px;
+  font: 400 14px/1.21 "Inter", Helvetica, Arial, serif;
+  color: rgba(0, 58, 146, 0.749);
+  text-align: right;
+}
+.adminhome .contentBox2 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 46px;
+  min-width: 0px;
+  background-color: #003a92;
+  border-radius: 10px 10px 10px 10px;
+}
+.adminhome .flexCol {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 12px 12px 12px 11px;
+}
+.adminhome .svgIcon1 {
+  position: relative;
+  width: 23px;
+  height: 18px;
+}
+.adminhome .secondaryImage1 {
+  position: relative;
+  margin: 18px 1px 0px;
+  width: 21px;
+  height: 21px;
+}
+.adminhome .secondaryImage2 {
+  position: relative;
+  margin: 18px 1px 0px;
+  width: 21px;
+  height: 21px;
+}
+.adminhome .decorativeImage {
+  position: relative;
+  margin: 19px 1px 0px;
+  width: 21px;
+  height: 23px;
+}
+.kotakpencarian {
+  max-height: 200px; /* Set the maximum desired height */
+  bottom: 190px;
+  right: 310px;
+  overflow-y: auto; /* Display a vertical scrollbar if the content exceeds the height */
+  position: absolute;
+  gap: 11px 0px;
+  width: 45%;
+  background-color: #f1f9ff;
+  padding: 13px 19px 12px 16px;
+  box-shadow: 0px 1px 5px 2px rgba(0, 0, 0, 0.149);
+  transform: translate(0px, 60px); /* Menggeser ke kanan 100px dan ke bawah 60px */
+  z-index: 1000; /* Nilai tinggi untuk memastikan berada di atas elemen lain */
+}
+
+.boxprofile {
+  position: relative;
+  display: flex;
+  gap: 0px 16px;
+  background-color: #f1f9ff;
+  padding: 7px 7px 7px 7px;
+  box-shadow: 0px 1px 5px 2px rgba(0, 0, 0, 0.149);
+}
+
+.labeldata {
+  position: relative;
+  display: flex;
+  align-items: center;
+  font: 400 16px/1.18 "Inter", Helvetica, Arial, serif;
+  color: rgba(0, 58, 146, 0.498);
+}
+.data {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 1px 0px;
+  margin: 2px 0px 0px;
+  width: 84px;
+  min-width: 0px;
+}

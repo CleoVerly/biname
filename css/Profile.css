@@ -1,0 +1,313 @@
+.profile.profileSection {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background: var(--src) center center/100% 100% no-repeat;
+  overflow: hidden;
+}
+.profile .profileImage {
+  position: absolute;
+  top: 100px;
+  left: 598px;
+  width: 84px;
+  height: 56px;
+  filter: drop-shadow(0px 0px 25px rgba(241, 249, 255, 0.247));
+}
+
+
+.profile .contactContentBox {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 205px auto 156px;
+  width: 779px;
+  background-color: #f1f9ff;
+  border-radius: 15px 15px 15px 15px;
+  box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.047);
+}
+.profile .actionButtonsRow {
+  position: absolute;
+  right: 23px;
+  bottom: 21px;
+  display: flex;
+  gap: 0px 10px;
+  width: 218px;
+  height: 30px;
+}
+.profile .editButton {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 104px;
+  font: 800 14px/1.5 "Inter", Helvetica, Arial, serif;
+  color: #f1f9ff;
+  text-align: center;
+  background-color: #5c62e2;
+  border-radius: 8px 8px 8px 8px;
+  padding: 4.5px 34px 4.5px 34px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.047);
+  text-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2470588235);
+}
+.profile .deleteButton {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 104px;
+  font: 800 14px/1.5 "Inter", Helvetica, Arial, serif;
+  color: #f1f9ff;
+  text-align: center;
+  background-color: #e25c5c;
+  border-radius: 8px 8px 8px 8px;
+  padding: 4.5px 26px 4.5px 26px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.047);
+  text-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2470588235);
+}
+.profile .detailsRow {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0px 10px;
+  margin: 24px 66px 72px 40px;
+  width: 673px;
+  height: 263px;
+}
+.profile .avatarRectangle {
+  position: relative;
+  width: 198px;
+  min-width: 0px;
+  height: 263px;
+  min-height: 263px;
+  background-color: #e25c5c;
+}
+.profile .detailsColumn {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 35px 0px;
+  width: 443px;
+  min-width: 0px;
+}
+.profile .infoColumn {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 9px 0px;
+  width: 83.75%;
+}
+.profile .nameSubtitle {
+  position: relative;
+  display: flex;
+  align-items: center;
+  font: 600 20px/1.2 "Inter", Helvetica, Arial, serif;
+  color: #003a92;
+}
+.profile .idHighlight {
+  position: relative;
+  display: flex;
+  align-items: center;
+  font: 400 16px/1.18 "Inter", Helvetica, Arial, serif;
+  color: #003a92;
+}
+.profile .additionalInfoRow {
+  position: relative;
+  display: flex;
+  gap: 0px 1px;
+}
+.profile .labelsColumn {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 146px;
+  min-width: 0px;
+}
+.profile .programLabel {
+  position: relative;
+  display: flex;
+  align-items: center;
+  font: 400 14px/1.21 "Inter", Helvetica, Arial, serif;
+  color: #003a92;
+}
+.profile .facultyLabel {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin: 14px 0px 0px;
+  font: 400 14px/1.21 "Inter", Helvetica, Arial, serif;
+  color: #003a92;
+}
+.profile .studyPeriodLabel {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin: 14px 0px 0px;
+  font: 400 14px/1.21 "Inter", Helvetica, Arial, serif;
+  color: #003a92;
+}
+.profile .addressLabel {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin: 14px 0px 0px;
+  font: 400 14px/1.21 "Inter", Helvetica, Arial, serif;
+  color: #003a92;
+}
+.profile .usernameLabel {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin: 14px 0px 0px;
+  font: 400 14px/1.21 "Inter", Helvetica, Arial, serif;
+  color: #003a92;
+}
+.profile .passwordLabel {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin: 8px 0px 0px;
+  font: 400 14px/1.21 "Inter", Helvetica, Arial, serif;
+  color: #003a92;
+}
+.profile .colonColumn {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 9px;
+  min-width: 0px;
+}
+.profile .programColon {
+  position: relative;
+  display: flex;
+  align-items: center;
+  font: 400 14px/1.21 "Inter", Helvetica, Arial, serif;
+  color: #003a92;
+}
+.profile .facultyColon {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin: 14px 0px 0px;
+  font: 400 14px/1.21 "Inter", Helvetica, Arial, serif;
+  color: #003a92;
+}
+.profile .studyPeriodColon {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin: 14px 0px 0px;
+  font: 400 14px/1.21 "Inter", Helvetica, Arial, serif;
+  color: #003a92;
+}
+.profile .addressColon {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin: 14px 5px 0px 0px;
+  font: 400 14px/1.21 "Inter", Helvetica, Arial, serif;
+  color: #003a92;
+}
+.profile .usernameColon {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin: 14px 5px 0px 0px;
+  font: 400 14px/1.21 "Inter", Helvetica, Arial, serif;
+  color: #003a92;
+}
+.profile .passwordColon {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin: 8px 5px 0px 0px;
+  font: 400 14px/1.21 "Inter", Helvetica, Arial, serif;
+  color: #003a92;
+}
+.profile .valuesColumn {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 287px;
+  min-width: 0px;
+}
+.profile .programValue {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin: 0px 0px 0px 1px;
+  font: 400 14px/1.21 "Inter", Helvetica, Arial, serif;
+  color: #003a92;
+}
+.profile .facultyValue {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin: 14px 0px 0px 1px;
+  font: 400 14px/1.21 "Inter", Helvetica, Arial, serif;
+  color: #003a92;
+}
+.profile .studyPeriodValue {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin: 14px 0px 0px 1px;
+  font: 400 14px/1.21 "Inter", Helvetica, Arial, serif;
+  color: #003a92;
+}
+.profile .addressValue {
+  position: relative;
+  margin: 14.5px 0px 0px;
+  font: 400 14px/1.21 "Inter", Helvetica, Arial, serif;
+  color: #003a92;
+}
+.profile .usernameValue {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin: 13.5px 0px 0px;
+  font: 400 14px/1.21 "Inter", Helvetica, Arial, serif;
+  color: #003a92;
+}
+.profile .passwordValue {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin: 8px 0px 0px;
+  font: 400 14px/1.21 "Inter", Helvetica, Arial, serif;
+  color: #003a92;
+}
+.profile .galleryContentBox {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  display: flex;
+  flex-direction: column;
+  width: 46px;
+  height: 162px;
+  background-color: #003a92;
+  border-radius: 10px 10px 10px 10px;
+}
+.profile .galleryColumn {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 12px 12px 12px 11px;
+}
+.profile .galleryImage4 {
+  position: relative;
+  width: 23px;
+  height: 18px;
+}
+.profile .galleryImage3 {
+  position: relative;
+  margin: 18px 1px 0px;
+  width: 21px;
+  height: 21px;
+}
+.profile .galleryImage2 {
+  position: relative;
+  margin: 19px 1px 0px;
+  width: 21px;
+  height: 23px;
+}

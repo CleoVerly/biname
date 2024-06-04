@@ -1,0 +1,191 @@
+.login-bni.loginSection {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background: var(--src) center center/100% 100% no-repeat;
+  overflow: hidden;
+}
+.login-bni .formGroup {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 205px auto 204px;
+  width: 359px;
+}
+.login-bni .infoRectangle {
+  position: relative;
+  min-height: 311px;
+  background-color: #f1f9ff;
+  border-radius: 15px 15px 15px 15px;
+  box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.047);
+}
+.login-bni .formTitleContainer {
+  position: absolute;
+  top: 21.5px;
+  left: 36px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 287px;
+  height: 196.5px;
+}
+.login-bni .loginTitle {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font: 600 32px/1.21 "Inter", Helvetica, Arial, serif;
+  color: #003a92;
+  text-align: center;
+}
+.login-bni .usernameContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 5px 0px;
+  margin: 20px 0px 0px;
+  width: 100%;
+}
+.login-bni .usernameField {
+  position: relative;
+  display: flex;
+  gap: 0px 6px;
+  width: 89.9%;
+}
+.login-bni .usernameIcon {
+  position: relative;
+  margin: 1.5px 0px 3.5px;
+  width: 12px;
+  min-width: 0px;
+  height: 12px;
+}
+.login-bni .usernameLabel {
+  position: relative;
+  display: flex;
+  min-width: 0px;
+  font: 400 14px/1.21 "Inter", Helvetica, Arial, serif;
+  color: #003a92;
+}
+.login-bni .usernameHighlight {
+  position: relative;
+  display: flex;
+  justify-content: flex-start; /* Mengatur konten untuk mulai dari kiri */
+  align-items: left;
+  width: 100%;
+  font: 400 16px/1.18 "Inter", Helvetica, Arial, serif;
+  color: rgba(0, 58, 146, 0.498);
+  text-align: left;
+  background-color: #f1f9ff;
+  border-radius: 10px 10px 10px 10px;
+  padding: 10.5px 14px 10.5px 14px;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.247);
+  border: transparent;
+  border-style: none;
+}
+
+.login-bni .passwordContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px 0px;
+  margin: 12.5px 0px 0px;
+  width: 100%;
+}
+.login-bni .passwordField {
+  position: relative;
+  display: flex;
+  gap: 0px 4px;
+  width: 90.24%;
+}
+.login-bni .passwordIcon {
+  position: relative;
+  margin: 1.5px 0px 0.5px;
+  width: 15px;
+  min-width: 0px;
+  height: 15px;
+}
+.login-bni .passwordLabel {
+  position: relative;
+  display: flex;
+  align-items: center;
+  min-width: 0px;
+  font: 400 14px/1.21 "Inter", Helvetica, Arial, serif;
+  color: #003a92;
+}
+.login-bni .passwordInputContainer {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 0px 8px;
+  width: 100%;
+  background-color: #f1f9ff;
+  border-radius: 10px 10px 10px 10px;
+  padding: 5px 9px 4px 14px;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.247);
+}
+.login-bni .passwordHighlight {
+  position: relative;
+  display: flex;
+  align-items: center;
+  min-width: 0px;
+  font: 400 16px/1.18 "Inter", Helvetica, Arial, serif;
+  border: transparent;
+  border-style: none;
+  background-color: transparent;
+}
+.login-bni .passwordVisibilityIcon {
+  position: relative;
+  width: 1px;
+  min-width: 0px;
+  height: 31px;
+}
+.login-bni .passwordConfirmIcon {
+  position: relative;
+  width: 17px;
+  min-width: 0px;
+  height: 11px;
+}
+.login-bni .loginButton {
+  position: absolute;
+  bottom: 25px;
+  left: 105px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 148px;
+  height: 40px;
+  font: 800 14px/1.5 "Inter", Helvetica, Arial, serif;
+  color: #f1f9ff;
+  text-align: center;
+  background-color: #003a92;
+  border-radius: 8px 8px 8px 8px;
+  padding: 9.5px 8px 9.5px 8px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.047);
+  text-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2470588235);
+}
+.regisButton {
+  position: absolute;
+  bottom: 25px;
+  left: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 148px;
+  height: 40px;
+  font: 800 14px/1.5 "Inter", Helvetica, Arial, serif;
+  color: #f1f9ff;
+  text-align: center;
+  background-color: #003a92;
+  border-radius: 8px 8px 8px 8px;
+  padding: 9.5px 8px 9.5px 8px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.047);
+  text-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2470588235);
+}
+.login-bni .logoImage {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  width: 18px;
+  height: 17px;
+}

@@ -1,0 +1,154 @@
+.regis.identitySection {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background: var(--src) center center/100% 100% no-repeat;
+  overflow: hidden;
+}
+.regis .profileImage {
+  position: absolute;
+  top: 100px;
+  left: 598px;
+  width: 84px;
+  height: 56px;
+  filter: drop-shadow(0px 0px 25px rgba(241, 249, 255, 0.247));
+}
+.regis .contentBox {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 205px auto 204px;
+  width: 779px;
+  background-color: #f1f9ff;
+  border-radius: 15px 15px 15px 15px;
+  box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.047);
+  
+}
+.regis .infoContainer {
+  position: absolute;
+  top: 57.5px;
+  left: 270px;
+  display: flex;
+  gap: 0px 1px;
+  width: 156px;
+  height: 172px;
+}
+.regis .labelColumn {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 14px 0px;
+  width: 146px;
+  min-width: 0px;
+}
+.regis .label {
+  position: relative;
+  display: flex;
+  align-items: center;
+  font: 400 14px/1.21 "Inter", Helvetica, Arial, serif;
+  color: #003a92;
+}
+.regis .addressLabel {
+  position: relative;
+  display: flex;
+  align-items: center;
+  font: 400 14px/1.21 "Inter", Helvetica, Arial, serif;
+  color: #003a92;
+}
+.regis .separatorColumn {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 14px 0px;
+  width: 9px;
+  min-width: 0px;
+}
+.regis .separator {
+  position: relative;
+  display: flex;
+  align-items: center;
+  font: 400 14px/1.21 "Inter", Helvetica, Arial, serif;
+  color: #003a92;
+}
+.regis .separatorAddress {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin: 0px 5px 0px 0px;
+  font: 400 14px/1.21 "Inter", Helvetica, Arial, serif;
+  color: #003a92;
+}
+.regis .divider {
+  position: absolute;
+  top: 24px;
+  left: 40px;
+  width: 198px;
+  height: 263px;
+  background-color: #e25c5c;
+}
+.regis .inputContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 19px 0px;
+  margin: 55px 18px 13px 423px;
+  width: 338px;
+  height: 243px;
+}
+.regis .inputColumn {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 9px 0px;
+  width: 86.69%;
+}
+.regis .inputBox {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 0px 0px 0px 4px;
+  outline: 1px solid #ebda40;
+  outline-offset: -1px;
+}
+.regis .input {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin: 2.5px 3px 2.5px 0px;
+  font: 400 14px/1.21 "Inter", Helvetica, Arial, serif;
+  color: #003a92;
+  background-color: transparent;
+  border: transparant;
+  border-style: none;
+}
+.regis .addressInputBox {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  outline: 1px solid #ebda40;
+  outline-offset: -1px;
+}
+.regis .inputAddress {
+  position: relative;
+  margin: 3px 3px 19px;
+  font: 400 14px/1.21 "Inter", Helvetica, Arial, serif;
+  color: #003a92;
+}
+.regis .registerButton {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 0px 0px auto;
+  width: 122px;
+  max-width: 100%;
+  font: 800 14px/1.5 "Inter", Helvetica, Arial, serif;
+  color: #f1f9ff;
+  text-align: center;
+  background-color: #003a92;
+  border-radius: 8px 8px 8px 8px;
+  padding: 4.5px 26px 4.5px 26px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.047);
+  text-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2470588235);
+  
+}

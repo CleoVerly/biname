@@ -1,0 +1,418 @@
+.edit.userProfileSection {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background: var(--src) center center/100% 100% no-repeat;
+  overflow: hidden;
+}
+.edit .profileImage {
+  position: absolute;
+  top: 100px;
+  left: 598px;
+  width: 84px;
+  height: 56px;
+  filter: drop-shadow(0px 0px 25px rgba(241, 249, 255, 0.247));
+}
+.edit .infoGroup {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 205px auto 117px;
+  width: 779px;
+}
+.edit .sectionDivider {
+  position: relative;
+  min-height: 398px;
+  background-color: #f1f9ff;
+  border-radius: 15px 15px 15px 15px;
+  box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.047);
+}
+.edit .buttonRow {
+  position: absolute;
+  right: 29px;
+  bottom: 25px;
+  display: flex;
+  gap: 0px 21px;
+  width: 265px;
+  height: 30px;
+}
+.edit .cancelButton {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 122px;
+  font: 800 14px/1.5 "Inter", Helvetica, Arial, serif;
+  color: #f1f9ff;
+  text-align: center;
+  background-color: red;
+  border-radius: 8px 8px 8px 8px;
+  padding: 4.5px 38px 4.5px 38px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.047);
+  text-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2470588235);
+}
+.edit .saveButton {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 122px;
+  font: 800 14px/1.5 "Inter", Helvetica, Arial, serif;
+  color: #f1f9ff;
+  text-align: center;
+  background-color: #003a92;
+  border-radius: 8px 8px 8px 8px;
+  padding: 4.5px 32px 4.5px 32px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.047);
+  text-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2470588235);
+}
+.edit .infoColumn {
+  position: absolute;
+  top: 55px;
+  left: 423px;
+  display: flex;
+  flex-direction: column;
+  width: 293px;
+  height: 252px;
+}
+.edit .nameBox {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 0px 0px 0px 4px;
+  outline: 1px solid #ebda40;
+  outline-offset: -1px;
+}
+.edit .nameText {
+  position: relative;
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  margin: 2.5px 3px 2.5px 0px;
+  font: 400 14px/1.21 "Inter", Helvetica, Arial, serif;
+  color: #003a92;
+  text-align: left;
+}
+.edit .nimBox {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 7px 0px 0px 3px;
+  outline: 1px solid #ebda40;
+  outline-offset: -1px;
+}
+.edit .nimText {
+  position: relative;
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  margin: 2.5px 3px 2.5px 0px;
+  font: 400 14px/1.21 "Inter", Helvetica, Arial, serif;
+  color: #003a92;
+  text-align: left;
+}
+.edit .prodiBox {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 9px 0px 0px 4px;
+  outline: 1px solid #ebda40;
+  outline-offset: -1px;
+}
+.edit .prodiText {
+  position: relative;
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  margin: 2.5px 3px 2.5px 0px;
+  font: 400 14px/1.21 "Inter", Helvetica, Arial, serif;
+  color: #003a92;
+  text-align: left;
+}
+.edit .facultyBox {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 5px 0px 0px 4px;
+  outline: 1px solid #ebda40;
+  outline-offset: -1px;
+}
+.edit .facultyText {
+  position: relative;
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  margin: 2.5px 3px 2.5px 0px;
+  font: 400 14px/1.21 "Inter", Helvetica, Arial, serif;
+  color: #003a92;
+  text-align: left;
+}
+.edit .studyPeriodBox {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 9px 0px 0px 4px;
+  outline: 1px solid #ebda40;
+  outline-offset: -1px;
+}
+.edit .studyPeriodText {
+  position: relative;
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  margin: 2.5px 3px 2.5px 0px;
+  font: 400 14px/1.21 "Inter", Helvetica, Arial, serif;
+  color: #003a92;
+  text-align: left;
+}
+.edit .addressBox {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 9px 0px 0px;
+  outline: 1px solid #ebda40;
+  outline-offset: -1px;
+}
+.edit .addressText {
+  position: relative;
+  display: flex;
+  justify-content: left;
+  margin: 3px 3px 19px;
+  font: 400 14px/1.21 "Inter", Helvetica, Arial, serif;
+  color: #003a92;
+  text-align: left;
+}
+.edit .usernameBox {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 2px 0px 0px;
+  outline: 1px solid #ebda40;
+  outline-offset: -1px;
+}
+.edit .usernameText {
+  position: relative;
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  margin: 2.5px 3px;
+  font: 400 14px/1.21 "Inter", Helvetica, Arial, serif;
+  color: #003a92;
+  text-align: left;
+}
+.edit .passwordBox {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 2px 0px 0px;
+  outline: 1px solid #ebda40;
+  outline-offset: -1px;
+}
+.edit .passwordText {
+  position: relative;
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  margin: 2.5px 3px;
+  font: 400 14px/1.21 "Inter", Helvetica, Arial, serif;
+  color: #003a92;
+  text-align: left;
+}
+.edit .infoDetailRow {
+  position: absolute;
+  top: 57.5px;
+  left: 270px;
+  display: flex;
+  gap: 0px 1px;
+  width: 156px;
+  height: 247px;
+}
+.edit .labelColumn {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 146px;
+  min-width: 0px;
+}
+.edit .nameLabel {
+  position: relative;
+  display: flex;
+  align-items: center;
+  font: 400 14px/1.21 "Inter", Helvetica, Arial, serif;
+  color: #003a92;
+}
+.edit .nimLabel {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin: 14px 0px 0px;
+  font: 400 14px/1.21 "Inter", Helvetica, Arial, serif;
+  color: #003a92;
+}
+.edit .prodiLabel {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin: 14px 0px 0px;
+  font: 400 14px/1.21 "Inter", Helvetica, Arial, serif;
+  color: #003a92;
+}
+.edit .facultyLabel {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin: 14px 0px 0px;
+  font: 400 14px/1.21 "Inter", Helvetica, Arial, serif;
+  color: #003a92;
+}
+.edit .studyPeriodLabel {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin: 14px 0px 0px;
+  font: 400 14px/1.21 "Inter", Helvetica, Arial, serif;
+  color: #003a92;
+}
+.edit .addressLabel {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin: 14px 0px 0px;
+  font: 400 14px/1.21 "Inter", Helvetica, Arial, serif;
+  color: #003a92;
+}
+.edit .usernameLabel {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin: 27px 0px 0px;
+  font: 400 14px/1.21 "Inter", Helvetica, Arial, serif;
+  color: #003a92;
+}
+.edit .passwordLabel {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin: 14px 0px 0px;
+  font: 400 14px/1.21 "Inter", Helvetica, Arial, serif;
+  color: #003a92;
+}
+.edit .colonColumn {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 9px;
+  min-width: 0px;
+}
+.edit .nameColon {
+  position: relative;
+  display: flex;
+  align-items: center;
+  font: 400 14px/1.21 "Inter", Helvetica, Arial, serif;
+  color: #003a92;
+}
+.edit .nimColon {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin: 14px 0px 0px;
+  font: 400 14px/1.21 "Inter", Helvetica, Arial, serif;
+  color: #003a92;
+}
+.edit .prodiColon {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin: 14px 0px 0px;
+  font: 400 14px/1.21 "Inter", Helvetica, Arial, serif;
+  color: #003a92;
+}
+.edit .facultyColon {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin: 14px 0px 0px;
+  font: 400 14px/1.21 "Inter", Helvetica, Arial, serif;
+  color: #003a92;
+}
+.edit .studyPeriodColon {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin: 14px 0px 0px;
+  font: 400 14px/1.21 "Inter", Helvetica, Arial, serif;
+  color: #003a92;
+}
+.edit .addressColon {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin: 14px 5px 0px 0px;
+  font: 400 14px/1.21 "Inter", Helvetica, Arial, serif;
+  color: #003a92;
+}
+.edit .usernameColon {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin: 27px 5px 0px 0px;
+  font: 400 14px/1.21 "Inter", Helvetica, Arial, serif;
+  color: #003a92;
+}
+.edit .passwordColon {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin: 14px 5px 0px 0px;
+  font: 400 14px/1.21 "Inter", Helvetica, Arial, serif;
+  color: #003a92;
+}
+.edit .sectionDivider2 {
+  position: absolute;
+  top: 55px;
+  left: 37px;
+  width: 198px;
+  height: 263px;
+  background-color: #e25c5c;
+}
+.edit .iconBox {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  display: flex;
+  flex-direction: column;
+  width: 46px;
+  height: 162px;
+  background-color: #003a92;
+  border-radius: 10px 10px 10px 10px;
+}
+.edit .iconColumn {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 18px 0px;
+  margin: 12px 12px 12px 11px;
+}
+.edit .iconImage1 {
+  position: relative;
+  width: 23px;
+  height: 18px;
+}
+.edit .iconImage2 {
+  position: relative;
+  margin: 0px 1px;
+  width: 21px;
+  height: 21px;
+}
+.edit .iconImage3 {
+  position: relative;
+  margin: 0px 1px;
+  width: 21px;
+  height: 22px;
+}
+.edit .iconImage4 {
+  position: relative;
+  margin: 0px 1px;
+  width: 21px;
+  height: 23px;
+}
